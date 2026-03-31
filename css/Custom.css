@@ -1,0 +1,86 @@
+body {
+            background-color: #0f172a;
+            color: #e2e8f0; 
+            padding-top: 80px;
+        }
+        .skill-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 16px;
+            transition: 0.3s;
+            height: 100%;
+        }
+        .skill-card:hover {
+            transform: translateY(-5px);
+            border: 1px solid rgba(255, 77, 141, 0.4);
+        }
+        .skill-card i {
+            color: #ff4d8d;
+        }
+        .skill-card p {
+            color: #cbd5f5;
+            font-size: 14px;
+        }
+        .edu-card,
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 16px;
+            transition: 0.3s;
+            height: 100%;
+        }
+        .edu-card:hover,
+        .project-card:hover {
+            transform: translateY(-5px);
+            border: 1px solid rgba(255, 77, 141, 0.4);
+        }
+        .edu-card i {
+            color: #ff4d8d;
+        }
+        .custom-badge-warning {
+            background-color: #ff4d8d;
+            color: white;
+        }
+        .custom-badge-success {
+            background-color: #22c55e;
+            color: white;
+        }
+        .upcoming-badge {
+            display: inline-block;
+            background-color: #ff4d8d;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            text-transform: uppercase;
+        }
+        .navbar .nav-link.active {
+            color: #ff4d8d !important;
+            font-weight: 600;
+        }
+        .navbar .nav-link:hover {
+            color: #ff4d8d;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        section {
+            padding: 100px 0;
+            scroll-margin-top: 100px;
+        }
+
+        /* Contact Form Styles */
+        .contact-card input:invalid,
+        .contact-card textarea:invalid {
+            border: 2px solid #ff4d8d;
+        }
+        .contact-card input:valid,
+        .contact-card textarea:valid {
+            border: 2px solid #22c55e;
+        }
+        .alert-success {
+            background-color: #22c55e;
+            color: white;
+        }
